@@ -1,0 +1,23 @@
+{
+  "name": "perfPlayground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Yuchen Liu",
+    "email": "liuyuchenzh@163.com"
+  },
+  "devDependencies": {
+    "lighthouse": "^4.0.0-alpha.2-3.2.1"
+  },
+  "scripts": {
+    "test": "lighthouse",
+    "test:desktop": "lighthouse --emulated-form-factor desktop",
+    "test:fullspeed": "lighthouse --throttling-method provided --emulated-form-factor none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liuyuchenzh/perfPlayground.git"
+  },
+  "readme": "https://github.com/liuyuchenzh/perfPlayground/README.md"
+}
